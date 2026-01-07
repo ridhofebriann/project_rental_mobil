@@ -61,3 +61,146 @@ rental_mobil/
 ├── index.php                   # Entry Point (Gerbang Utama / Router)
 ├── rental_mobil.sql            # File Database untuk di-import
 └── README.md                   # Dokumentasi Project
+```
+
+---
+
+## 🔍 Penjelasan Alur Logika (Routing)
+
+  * Saya tidak mengakses file .php secara langsung di browser (contoh: katalog.php). Sebagai gantinya, saya menggunakan teknik Routing di index.php.
+
+  * Semua request URL diarahkan ke index.php oleh .htaccess.
+
+  * index.php mengecek URL yang diminta (misal: /katalog atau /dashboard).
+
+  * Switch-case di index.php memanggil Controller dan View yang sesuai.
+
+  * Ini membuat keamanan lebih terjaga karena struktur file asli tersembunyi.
+---
+
+## ✨ Fitur & Fungsionalitas
+
+## 1. Hak Akses (Multi-Role)
+   
+  * Sistem membedakan sesi antara Admin dan User Biasa.
+
+    * **Jika Admin login** -> Diarahkan ke Dashboard (Bisa Edit/Hapus).
+
+    * **Jika User login** -> Diarahkan ke Katalog (Hanya bisa lihat & sewa).
+
+## 2. Fitur Admin (Back-Office)
+
+**Dashboard Modern: Menampilkan tabel data mobil dengan desain Card**.
+
+* CRUD Mobil:
+
+    * **Create**: Upload foto mobil, input merk, model, nopol, harga.
+
+    * **Read**: Melihat daftar armada.
+
+    * **Update**: Mengedit info mobil & mengganti foto lama.
+
+    * **Delete**: Menghapus data dengan konfirmasi Pop-up (SweetAlert).
+
+    * **Status Control**: Mengubah status mobil menjadi "Tersedia" atau "Disewa".
+
+## 3. Fitur User (Front-Office)
+
+* Landing Page: Halaman depan dengan animasi dan informasi layanan.
+
+  * **Katalog Interaktif**: Tampilan Grid mobil yang responsif.
+
+  * **Pencarian (Search)**: Mencari mobil berdasarkan Merk atau Model secara real-time (reload).
+
+  * **Pagination**: Membagi halaman jika data mobil terlalu banyak.
+
+  * **Logout Aman**: Konfirmasi logout dengan pop-up interaktif
+ 
+## 🚀 Panduan Instalasi (Cara Menjalankan)
+
+Jika Bapak/Ibu ingin menjalankan project ini di komputer lokal, silakan ikuti langkah berikut:
+```
+  1. Siapkan Environment:
+
+  2. Pastikan XAMPP (Apache & MySQL) sudah berjalan.
+
+  3. Simpan folder project rental_mobil di dalam htdocs.
+
+  1. Konfigurasi Database:
+     
+    2. Buka localhost/phpmyadmin.
+
+    3. Buat database baru bernama: rental_mobil.
+
+Import file rental_mobil.sql yang ada di folder project ini.
+
+Cek Koneksi:
+
+  Buka file config/Database.php.
+
+  Pastikan username (root) dan password (kosong) sesuai dengan settingan XAMPP.
+
+Akses Browser:
+
+Buka URL: http://localhost/rental_mobil
+```
+---
+
+## 🔐 Akun Login (Testing)
+
+  role        | username  |   Password
+  
+Administrator,  admin      ,  password
+
+User / Penyewa, user      ,   password
+
+## 📸 Daftar Screenshot 
+
+
+## 1. Bagian Awal: Landing Page & Database
+   
+**Screenshot Home (Landing Page):**
+
+<img src="rental_mobil/public/img/home.png" width="700">
+
+Penjelasan: Menunjukkan tampilan publik aplikasi yang modern dan responsif.
+
+**Screenshot Struktur Database (phpMyAdmin):** Buka tabel mobil dan users, ambil screenshot struktur kolomnya.
+
+<img src="rental_mobil/public/img/home.png" width="700">
+
+Penjelasan: Membuktikan perancangan basis data yang terorganisir dengan tipe data yang sesuai.
+
+## 2. Bagian Autentikasi
+
+Screenshot Halaman Login: Posisi kartu harus tepat di tengah.
+
+Screenshot Pop-up Login Berhasil: Ambil saat muncul ceklis hijau SweetAlert.
+
+Screenshot Pop-up Login Gagal: Masukkan password salah, lalu screenshot pesan error merahnya.
+
+Penjelasan: Menunjukkan fitur validasi keamanan dan interaksi pengguna yang baik.
+
+3. Bagian Panel Admin (Fokus CRUD)
+Screenshot Dashboard Utama: Ambil gambar tabel data mobil yang sudah terisi beberapa data.
+
+Screenshot Form Tambah Mobil: Ambil saat kamu sedang mengisi data (sebelum klik simpan).
+
+Screenshot Pop-up Sukses Tambah Data: Menunjukkan data berhasil masuk ke database.
+
+Screenshot Form Edit Mobil: Tunjukkan proses mengubah harga atau status.
+
+Screenshot Konfirmasi Hapus (SweetAlert): Ambil saat muncul pertanyaan "Yakin hapus data ini?".
+
+Penjelasan: Mendokumentasikan siklus hidup data (Create, Read, Update, Delete) secara lengkap.
+
+4. Bagian Katalog User & Fitur Pintar
+Screenshot Katalog Mobil: Tunjukkan daftar mobil dalam bentuk grid/card.
+
+Screenshot Fitur Pencarian: Ketik nama mobil di kolom cari, lalu screenshot hasilnya yang sudah terfilter.
+
+Screenshot Fitur Pagination: Ambil gambar bagian bawah katalog yang ada angka halamannya (1, 2, Next).
+
+Screenshot Klik Tombol Sewa: Tunjukkan saat browser membuka tab baru ke arah WhatsApp dengan pesan otomatis yang sudah terisi.
+
+Penjelasan: Menunjukkan fungsionalitas pencarian data dan integrasi pihak ketiga (WhatsApp API).
