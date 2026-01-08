@@ -20,7 +20,7 @@ Saya juga mengimplementasikan **Routing Manual** menggunakan `.htaccess` untuk m
 Dalam pengembangan aplikasi ini, saya menggunakan stack teknologi berikut:
 
 * **Backend:** PHP 8.0+ (OOP Style)
-* **Database:** MySQL / MariaDB
+* **Database:** MySQL / 
 * **Frontend:** HTML5, CSS3, Bootstrap 5.3 (Responsif)
 * **Javascript:** Vanilla JS & SweetAlert2 (untuk interaksi UI yang menarik)
 * **Styling:** Google Fonts (Poppins) & Bootstrap Icons
