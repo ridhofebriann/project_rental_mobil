@@ -195,7 +195,7 @@ Penjelasan: Menunjukkan fitur validasi keamanan dan interaksi pengguna yang baik
 
 **Screenshot Dashboard Utama:** Ambil gambar tabel data mobil yang sudah terisi beberapa data.
 
-<img src="rental_mobil/public/img/dashboard.png" width="700">
+<img src="rental_mobil/public/img/Dashboard.png" width="700">
 
 **Screenshot Form Tambah Mobil:** Ambil saat kamu sedang mengisi data (sebelum klik simpan).
 
