@@ -1,0 +1,93 @@
+/* Import Google Font */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap");
+
+:root {
+  --primary-color: #4e73df;
+  --secondary-color: #858796;
+  --accent-color: #224abe;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #f3f4f6;
+  color: #333;
+}
+
+/* --- Styling Navbar --- */
+.navbar {
+  background: linear-gradient(90deg, #4e73df 0%, #224abe 100%) !important;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-brand {
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+/* --- Styling Card Mobil --- */
+.card {
+  border: none;
+  border-radius: 15px;
+  background: #fff;
+  transition: all 0.3s ease-in-out;
+  overflow: hidden;
+}
+
+.card:hover {
+  transform: translateY(-10px); /* Efek melayang saat di-hover */
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+}
+
+.card-img-top {
+  height: 220px;
+  object-fit: cover;
+  transition: transform 0.5s ease;
+}
+
+.card:hover .card-img-top {
+  transform: scale(1.05); /* Zoom in gambar sedikit */
+}
+
+/* --- Tombol Custom --- */
+.btn-primary {
+  background-color: var(--primary-color);
+  border: none;
+  border-radius: 8px;
+  padding: 10px 20px;
+  font-weight: 600;
+  transition: 0.3s;
+}
+
+.btn-primary:hover {
+  background-color: var(--accent-color);
+  box-shadow: 0 5px 15px rgba(78, 115, 223, 0.4);
+}
+
+/* --- Login Page Styling --- */
+.login-body {
+  background: linear-gradient(135deg, #fdfbfb 0%, #ebedee 100%);
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.login-card {
+  border-radius: 20px;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.08);
+}
+
+/* --- Hero Section (Untuk Katalog) --- */
+.hero-section {
+  background: white;
+  padding: 40px 20px;
+  border-radius: 15px;
+  margin-bottom: 30px;
+  text-align: center;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.05);
+}
+
+.hero-title {
+  font-weight: 800;
+  color: var(--primary-color);
+}
