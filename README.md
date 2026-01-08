@@ -161,11 +161,11 @@ User / Penyewa, user      ,   password
    
 **Screenshot Home (Landing Page):**
 
-<img src="rental_mobil/public/img/home.png" width="700">
-
-Penjelasan: Menunjukkan tampilan publik aplikasi yang modern dan responsif.
+<img src="rental_mobil/public/img/home.png" width="700">   
 
 **Screenshot Struktur Database (phpMyAdmin):** Buka tabel mobil dan users, ambil screenshot struktur kolomnya.
+
+<img src="rental_mobil/public/img/home.png" width="700">
 
 <img src="rental_mobil/public/img/home.png" width="700">
 
@@ -173,34 +173,61 @@ Penjelasan: Membuktikan perancangan basis data yang terorganisir dengan tipe dat
 
 ## 2. Bagian Autentikasi
 
-Screenshot Halaman Login: Posisi kartu harus tepat di tengah.
+**Screenshot Halaman Login:** Posisi kartu harus tepat di tengah.
 
-Screenshot Pop-up Login Berhasil: Ambil saat muncul ceklis hijau SweetAlert.
+<img src="rental_mobil/public/img/home.png" width="700">
 
-Screenshot Pop-up Login Gagal: Masukkan password salah, lalu screenshot pesan error merahnya.
+**Screenshot Pop-up Login Berhasil:** Ambil saat muncul ceklis hijau SweetAlert.
+
+<img src="rental_mobil/public/img/home.png" width="700">
+
+**Screenshot Pop-up Login Gagal:** Masukkan password salah, lalu screenshot pesan error merahnya.
+
+<img src="rental_mobil/public/img/home.png" width="700">
 
 Penjelasan: Menunjukkan fitur validasi keamanan dan interaksi pengguna yang baik.
 
-3. Bagian Panel Admin (Fokus CRUD)
-Screenshot Dashboard Utama: Ambil gambar tabel data mobil yang sudah terisi beberapa data.
+## 3. Bagian Panel Admin (Fokus CRUD)
 
-Screenshot Form Tambah Mobil: Ambil saat kamu sedang mengisi data (sebelum klik simpan).
+**Screenshot Dashboard Utama:** Ambil gambar tabel data mobil yang sudah terisi beberapa data.
 
-Screenshot Pop-up Sukses Tambah Data: Menunjukkan data berhasil masuk ke database.
+<img src="rental_mobil/public/img/home.png" width="700">
 
-Screenshot Form Edit Mobil: Tunjukkan proses mengubah harga atau status.
+**Screenshot Form Tambah Mobil:** Ambil saat kamu sedang mengisi data (sebelum klik simpan).
 
-Screenshot Konfirmasi Hapus (SweetAlert): Ambil saat muncul pertanyaan "Yakin hapus data ini?".
+<img src="rental_mobil/public/img/home.png" width="700">
+
+**Screenshot Pop-up Sukses Tambah Data:** Menunjukkan data berhasil masuk ke database.
+
+<img src="rental_mobil/public/img/home.png" width="700">
+
+**Screenshot Form Edit Mobil:** Tunjukkan proses mengubah harga atau status.
+
+<img src="rental_mobil/public/img/home.png" width="700">
+
+**Screenshot Konfirmasi Hapus (SweetAlert):** Ambil saat muncul pertanyaan "Yakin hapus data ini?".
+
+<img src="rental_mobil/public/img/home.png" width="700">
 
 Penjelasan: Mendokumentasikan siklus hidup data (Create, Read, Update, Delete) secara lengkap.
 
-4. Bagian Katalog User & Fitur Pintar
-Screenshot Katalog Mobil: Tunjukkan daftar mobil dalam bentuk grid/card.
+## 4. Bagian Katalog User & Fitur Pintar
 
-Screenshot Fitur Pencarian: Ketik nama mobil di kolom cari, lalu screenshot hasilnya yang sudah terfilter.
+**Screenshot Katalog Mobil:** Tunjukkan daftar mobil dalam bentuk grid/card.
 
-Screenshot Fitur Pagination: Ambil gambar bagian bawah katalog yang ada angka halamannya (1, 2, Next).
+<img src="rental_mobil/public/img/home.png" width="700">
 
-Screenshot Klik Tombol Sewa: Tunjukkan saat browser membuka tab baru ke arah WhatsApp dengan pesan otomatis yang sudah terisi.
+**Screenshot Fitur Pencarian:** Ketik nama mobil di kolom cari, lalu screenshot hasilnya yang sudah terfilter.
+
+<img src="rental_mobil/public/img/home.png" width="700">
+
+**Screenshot Fitur Pagination:** Ambil gambar bagian bawah katalog yang ada angka halamannya (1, 2, Next).
+
+<img src="rental_mobil/public/img/home.png" width="700">
+
+**Screenshot Klik Tombol Sewa:** Tunjukkan saat browser membuka tab baru ke arah WhatsApp dengan pesan otomatis yang sudah terisi.
+
+<img src="rental_mobil/public/img/home.png" width="700">
 
 Penjelasan: Menunjukkan fungsionalitas pencarian data dan integrasi pihak ketiga (WhatsApp API).
+
