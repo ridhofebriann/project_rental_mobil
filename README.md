@@ -201,10 +201,6 @@ Penjelasan: Menunjukkan fitur validasi keamanan dan interaksi pengguna yang baik
 
 <img src="rental_mobil/public/img/tambah.png" width="700">
 
-**Screenshot Pop-up Sukses Tambah Data:** 
-
-<img src="rental_mobil/public/img/.png" width="700">
-
 **Screenshot Form Edit Mobil:** 
 
 <img src="rental_mobil/public/img/edit.png" width="700">
