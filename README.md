@@ -1,11 +1,17 @@
 # project_rental_mobil
 # 🚗 Sistem Informasi Rental Mobil (PHP Native MVC)
 
-**Project UAS Pemrograman Web** 
-**Nama:** M. Ridho Febrian 
-**NIm:** 312410500
-**Program Studi:** Teknik Informatika  
-**Universitas:** Universitas Pelita Bangsa  
+## Project UAS Pemrograman Web** 
+---
+## 👨‍💻 Informasi Pengembang
+
+| Atribut | Keterangan |
+| :--- | :--- |
+| **Nama** | **M.Ridho Febrian** |
+| **NIM** | 312410500 |
+| **Kelas** | TI.24.A.5 |
+| **Universitas** | Universitas Pelita Bangsa |
+| **Mata Kuliah** | Pemrograman Web 1 |
 
 ---
 
