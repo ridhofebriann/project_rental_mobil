@@ -174,7 +174,7 @@ Buka URL: http://localhost/rental_mobil
 
 **Screenshot Struktur Database (phpMyAdmin):**
 
-**admin**
+**mobil**
 
 <img src="rental_mobil/public/img/admin.png" width="700">
 
