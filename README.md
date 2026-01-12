@@ -1,7 +1,9 @@
 # project_rental_mobil
 # 🚗 Sistem Informasi Rental Mobil (PHP Native MVC)
 
-**Project UAS Pemrograman Web** **Nama:** M. Ridho Febrian  
+**Project UAS Pemrograman Web** 
+**Nama:** M. Ridho Febrian 
+**NIm:** 312410500
 **Program Studi:** Teknik Informatika  
 **Universitas:** Universitas Pelita Bangsa  
 
@@ -147,12 +149,12 @@ Buka URL: http://localhost/rental_mobil
 ---
 
 ## 🔐 Akun Login (Testing)
+| Role | Username |  password |
+| :--- | :--- | :--- |
+| **Administrator** | **admin** | **password** |
+| **User / Penyewa** | **user**  | **password**  |
 
-  role        | username  |   Password
-  
-Administrator,  admin      ,  password
 
-User / Penyewa, user      ,   password
 
 ## 📸 Daftar Screenshot 
 
@@ -226,6 +228,7 @@ Penjelasan: Mendokumentasikan siklus hidup data (Create, Read, Update, Delete) s
 <img src="rental_mobil/public/img/pagination.png" width="700">
 
 **Screenshot Klik Tombol Sewa:** 
+
 <img src="rental_mobil/public/img/tombol_sewa.png" width="700">
 
 Penjelasan: Menunjukkan fungsionalitas pencarian data dan integrasi pihak ketiga (WhatsApp API).
