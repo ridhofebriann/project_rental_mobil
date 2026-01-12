@@ -71,6 +71,9 @@ rental_mobil/
 ├── rental_mobil.sql            # File Database untuk di-import
 └── README.md                   # Dokumentasi Project
 ```
+**NOTE**
+
+ saya menerapkan pendekatan Simplified MVC. Logika bisnis dan query database saya integrasikan langsung ke dalam Controller agar pengembangan lebih efisien dan kode tidak terlalu terpecah-pecah (Over-engineering). Namun, struktur folder Models tetap saya sediakan sebagai persiapan (placeholder) jika nanti aplikasi ini dikembangkan ke skala enterprise yang butuh pemisahan query SQL secara ketat.
 
 ---
 
